@@ -6,32 +6,221 @@ html, body {
 * {
     box-sizing: border-box;
 }
-.float-left {
-    float: left;
+
+header {
+   background-image:linear-gradient(to bottom,rgb(36, 36, 68), transparent), url(../images/header-bg.jpg) ;
+    background-size: cover;
+    background-size: cover;
+    background-position: cover;
+    height: 100vh;
 }
-.float-right {
-    float: right;
+    
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
-.w-25 {
-    width: 25%;
+.text-bg {
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 160px;
+    font-weight: 700;
+    top: 185px;
+    opacity: 0.2;
+    color: white;
 }
-.w-75 {
-    width: 75%;
+.main-text {
+    margin-top: 30vh;
+    margin-left: 15vh;
 }
-.main-menu-item {
-    list-style: none;
-    margin: 30px;
+
+.text-line-1 {
+    color: white;
+    font-size: 20px;
 }
-.main-menu-item a {
-    text-decoration: none;
-    color: black;
+.text-line-2 {
+    color: white;
+    font-size: 100px;
 }
-.main-menu-item :hover {
-    color:rgb(220, 127, 56)
+.view-btn {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease 0s
 }
-.clear-both {
-    clear: both;
-} 
-.flex-container {
+.view-btn:hover {
+    background: #cea06c;
+    color: #fff
+}
+.head-icon {
+    margin-left: 15vh;
+    color: #fff;
+    padding: 10px;
+}
+.head-main {
     display: flex;
+    width: 100%;
 }
+
+    
+.introduce i {
+    margin-bottom: 45px;
+    font-size: 60px;
+    border: 1px solid #9499a5;
+    padding: 36px 41px;
+    display: inline-block;
+    color: #263a4e;
+    transition: all 0.3s ease 0s
+}
+.introduce:hover i {
+    border: 1px solid #cea06c
+}
+.compass-icon {
+    font-size: 100px;
+    padding: 0px 17px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px
+    
+}
+.introduce-name {
+    text-align: center;
+    color: #0f0e4b;
+    font-size: 18px;
+    font-weight: 700;
+}
+.introduce-describe {
+    text-align: center;
+    color: rgb(143, 143, 143);
+    font-weight: 450;
+}
+.introduce-name :hover {
+    color: #cea06c;
+}
+.main-mid {
+    background: #f9f8f8;
+    display: flex;
+    
+}
+.main-mid-img{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main-mid-text {
+    margin-top: 200px;
+}
+.text-h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #cea06c
+}
+.text-h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.read-btn {
+    position: relative;
+    display: inline-block;
+    color: #0f0e4b;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #cea06c;
+    transition: all 0.3s ease 0s
+}
+.read-btn:hover {
+    background: #cea06c;
+    color: #fff
+}
+.menu-project {
+   margin-top: 100px;
+}
+.menu-work {
+    margin-top: 80px;
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 13px;
+    color: #0f0e4b
+}
+.video-project {
+    background-image: url(../images/ct1.jpg);
+    background-size: cover;
+    background-image:linear-gradient(to bottom,rgb(36, 36, 68), transparent), url(../images/ct1.jpg) ;
+    height: 100vh;
+}
+.video-project h1 {
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+.video-project p {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff
+}
+.video-btn {
+    position: relative;
+    box-sizing: content-box;
+    margin-left: 510px;
+    background-color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 28px 28px 28px 28px
+}
+.cmt {
+    background-color: #f3f1f1;
+}
+.comment {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.cmt-1 :hover {
+    border: 1px solid #cea06c;
+}
+.cmt-h4 {
+    margin: 20px 0px 10px;
+    font-size: 20px;
+}
+.bg-cmt {
+    background-color: #fff;
+}
+.brand {
+    margin: 100px;
+}
+.brand .brand-bg .brand-hover {
+    text-align: center;
+    filter: grayscale(100%);
+    opacity: .3;
+    transition: all 0.3s ease 0s
+}
+.brand .brand-bg .brand-hover:hover {
+    filter: grayscale(0%);
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+     
