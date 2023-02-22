@@ -146,7 +146,7 @@ header {
 .menu-project {
    margin-top: 100px;
 }
-.menu-work {
+.menu-project .menu-work ul li {
     margin-top: 80px;
     list-style: none;
     display: inline-block;
@@ -154,8 +154,12 @@ header {
     cursor: pointer;
     position: relative;
     font-size: 13px;
-    color: #0f0e4b
 }
+.menu-work a {
+    color: #0f0e4b;
+    font-weight: 500;
+}
+
 .video-project {
     background-image: url(../images/ct1.jpg);
     background-size: cover;
@@ -215,11 +219,51 @@ header {
     filter: grayscale(0%);
     opacity: 1
 }
+footer {
+    height: 200vh;
+    background-color: rgb(27, 20, 53);
+}
+.footer-section .footer-widget ul li {
+    margin-bottom: 15px;
+    list-style: none;;
+}
+.footer-section .footer-widget h4 {
+    color: #fff;
+    margin-bottom: 35px;
+    margin-top: 100px;
+}
+.footer-section a{
+    color: #9499a5;
+}
+.footer-bottom {
+    color: #fff;
+    margin-top: 50px;
+}
+.footer-section .footer-bottom .footer-social {
+    text-align: right
+}
 
-
-
-
-
+.footer-section .footer-bottom .footer-social a {
+    background: #334f6c;
+    width: 20px;
+    width: 40px;
+    display: inline-table;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.3s ease 0s
+}
+.footer-section .footer-bottom .footer-social a:hover {
+    background: #cea06c
+}
+.place-holder {
+    background-color: #334f6c;
+    color: #9499a5;
+}
+.submit-button {
+    background-color: #9499a5;
+    color: #334f6c;
+}
 
 
 
